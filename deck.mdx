@@ -1,0 +1,144 @@
+export { default as theme } from './src/index'
+import { Head } from 'mdx-deck'
+import nightOwl from 'prism-react-renderer/themes/nightOwl'
+import { CodeSurfer } from 'mdx-deck-code-surfer'
+import { Layout, Split, BGImage, Image } from './src/index'
+
+<Head>
+  <title>The New React Way: A less classy one</title>
+</Head>
+
+# 👋
+
+---
+
+# The New React Way: A less classy one
+
+---
+
+# My name is Sara
+
+---
+
+export default Split
+
+<img src={require('file-loader!./images/yld.gif')} />
+
+- Developer Advocate at YLD
+- Really into shitty movies
+- Really into football
+
+---
+
+# React is constantly changing
+
+---
+
+# One of the latest one is hooks
+
+---
+
+# To understand let's look at a class component
+
+---
+
+<CodeSurfer
+  code={require('!raw-loader!./code/class.js')}
+  lang="jsx"
+  theme={nightOwl}
+/>
+
+---
+
+# React relayed on lifecycle methods
+
+## it also relayed on classes
+
+---
+
+- constructor()
+- componentDidMount()
+- shouldComponentUpdate()
+- componentDidUpdate()
+- componentWillUnmount()
+- render()
+
+---
+
+# React Classes are not really classes
+
+## that's kinda of confusing
+
+---
+
+# Hooks
+
+---
+
+# A new way to write react apps
+
+## not so reliant on classes
+
+---
+
+# A more functional react
+
+---
+
+# Live coding
+
+## Wish me luck 🤞
+
+[https://codesandbox.io/s/m3k73k10ny](https://codesandbox.io/s/m3k73k10ny)
+
+---
+
+# useState()
+
+## Returns a stateful value, and a function to update it.
+
+[https://codesandbox.io/s/o4norpl3xz](https://codesandbox.io/s/o4norpl3xz)
+
+---
+
+# useEffect
+
+## Runs a function with "side effects"
+
+[https://codesandbox.io/s/94m20q5r6p](https://codesandbox.io/s/94m20q5r6p)
+
+---
+
+# useContext
+
+## Creates a context value
+
+[https://codesandbox.io/s/7j0205mypq](https://codesandbox.io/s/7j0205mypq)
+
+# useReducer
+
+## Tiny redux
+
+---
+
+<CodeSurfer
+  code={require('!raw-loader!./code/useReducer.js')}
+  lang="jsx"
+  theme={nightOwl}
+/>
+
+---
+
+# Example
+
+[https://codesandbox.io/s/50872mo1n4](https://codesandbox.io/s/50872mo1n4)
+
+---
+
+export default Layout
+
+<Image src={require('file-loader!./images/yay.jpg')} />
+
+# Thank You 🇭🇷
+
+### [https://a-new-react-way-netlify.com/](https://gql-all-things.now.sh/)
